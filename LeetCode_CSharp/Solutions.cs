@@ -1,6 +1,10 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+/*
+      1. Two Sum
+    121. Best Time to Buy and Sell Stock
+ */
 namespace LeetCode
 {
     internal class Solutions
