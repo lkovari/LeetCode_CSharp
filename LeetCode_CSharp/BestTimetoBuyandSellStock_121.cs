@@ -30,10 +30,11 @@ namespace LeetCode
 
         static void Main(string[] args)
         {
+            Console.WriteLine("LeetCode: 121. Best Time To Buy And Sell solution");
             var prices = new int[] { 7, 1, 5, 3, 6, 4 };
             var solution = new Solution();
             var maxProfit = solution.MaxProfit(prices);
-            Console.WriteLine(maxProfit.ToString());
+            Console.WriteLine($"          121. Best Time To Buy And Sell Max Profit: {maxProfit}");
         }
     }
 
